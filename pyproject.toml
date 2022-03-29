@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nvim_pdb"
+version = "0.1.0"
+description = "Neovim UI for the IPython Debugger"
+authors = ["Mena Jacobs <menalisa.jacobs@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pynvim = "^0.4.3"
+ipython = "^8.2.0"
+
+[tool.poetry.dev-dependencies]
+commitizen = "^2.23.0"
+pre-commit = "^2.17.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
